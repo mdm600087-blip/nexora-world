@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a1020" />
+  <meta name="description" content="NEXORA — Connect, share, and explore. Browse freely, join when you're ready." />
+  <title>NEXORA — Connect · Share · Explore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="NEXORA home">
+      <span class="brand-mark"><i></i><i></i><i></i></span>
+      <span><strong>NEXORA</strong><small>Connect · Share · Explore</small></span>
+    </a>
+    <button class="mobile-menu" id="mobileMenu" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a class="nav-link active" href="#home">⌂ <span>Home</span></a>
+      <a class="nav-link" href="#explore">⌕ <span>Explore</span></a>
+      <a class="nav-link" href="#videos">▷ <span>Videos</span></a>
+      <a class="nav-link" href="#photos">▧ <span>Photos</span></a>
+      <a class="nav-link" href="#communities">♧ <span>Communities</span></a>
+    </nav>
+    <div class="top-actions">
+      <label class="search-box"><span>⌕</span><input id="globalSearch" type="search" placeholder="Search NEXORA..." aria-label="Search posts"></label>
+      <button class="btn btn-ghost" data-auth="login">Log in</button>
+      <button class="btn btn-primary" data-auth="signup">Sign up <span>↗</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="sparkle">✦</span> YOUR SPACE. YOUR PEOPLE.</div>
+        <h1>A better way<br>to <span class="gradient-text">connect.</span></h1>
+        <p class="hero-description">Share your moments, discover new ideas, and find your people. Explore NEXORA freely — create an account only when you're ready.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-large" href="#feed">Explore as guest <span>→</span></a>
+          <button class="btn btn-outline btn-large" data-auth="signup">Create free account</button>
+        </div>
+        <div class="social-proof">
+          <div class="avatar-stack">
+            <img src="https://i.pravatar.cc/80?img=12" alt="" /><img src="https://i.pravatar.cc/80?img=32" alt="" /><img src="https://i.pravatar.cc/80?img=47" alt="" /><img src="https://i.pravatar.cc/80?img=5" alt="" />
+          </div>
+          <div><strong>A community built around you</strong><span>No pressure. Browse first, join anytime.</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Preview of the NEXORA social feed">
+        <div class="visual-orbit orbit-a"></div><div class="visual-orbit orbit-b"></div>
+        <div class="floating-chip chip-top"><span class="chip-icon purple">✦</span><span><b>Find your people</b><small>Communities that click</small></span></div>
+        <div class="device">
+          <div class="device-top"><span class="mini-brand"><span class="mini-mark">N</span> NEXORA</span><span class="device-dots">•••</span></div>
+          <div class="device-greeting">Good evening, explorer <span>✦</span></div>
+          <div class="device-stories">
+            <div><img src="https://i.pravatar.cc/90?img=11" alt=""><span>Your story</span></div>
+            <div><img src="https://i.pravatar.cc/90?img=44" alt=""><span>Emma</span></div>
+            <div><img src="https://i.pravatar.cc/90?img=13" alt=""><span>Alex</span></div>
+            <div><img src="https://i.pravatar.cc/90?img=59" alt=""><span>Sophia</span></div>
+          </div>
+          <div class="device-post">
+            <div class="post-user"><img src="https://i.pravatar.cc/80?img=68" alt=""><span><b>Jordan Lee</b><small>Travel journal · 12 min ago</small></span><span class="more">···</span></div>
+            <img class="post-landscape" src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=85" alt="Mountain lake landscape">
+            <p>Somewhere between the mountains and the sky. 🌄</p>
+            <div class="post-stats"><span>♡ 248</span><span>◯ 32 comments</span><span>↗ Share</span></div>
+          </div>
+          <div class="device-bottom"><span>⌂</span><span>⌕</span><span class="plus">＋</span><span>♡</span><span>◉</span></div>
+        </div>
+        <div class="floating-chip chip-bottom"><span class="chip-icon cyan">↗</span><span><b>Discover something new</b><small>Ideas, stories & creators</small></span></div>
+      </div>
+    </section>
+
+    <section class="feature-strip section-wrap" aria-label="NEXORA features">
+      <article class="feature"><span class="feature-icon purple">♧</span><div><h3>Connect</h3><p>Meet people who share your interests.</p></div></article>
+      <article class="feature"><span class="feature-icon green">▷</span><div><h3>Watch</h3><p>Discover videos and fresh perspectives.</p></div></article>
+      <article class="feature"><span class="feature-icon pink">▧</span><div><h3>Share</h3><p>Post photos, thoughts, and moments.</p></div></article>
+      <article class="feature"><span class="feature-icon blue">♧</span><div><h3>Communities</h3><p>Find your corner of the internet.</p></div></article>
+      <article class="feature"><span class="feature-icon orange">◇</span><div><h3>Your choice</h3><p>Browse first. Sign up when it suits you.</p></div></article>
+    </section>
+
+    <section class="content-area section-wrap" id="feed">
+      <aside class="left-sidebar panel">
+        <div class="sidebar-heading">YOUR SPACE</div>
+        <a class="side-link selected" href="#feed"><span>⌂</span> Home feed</a>
+        <a class="side-link" href="#explore"><span>⌕</span> Explore <em>NEW</em></a>
+        <a class="side-link" href="#videos"><span>▷</span> Videos</a>
+        <a class="side-link" href="#photos"><span>▧</span> Photos</a>
+        <a class="side-link" href="#communities"><span>♧</span> Communities</a>
+        <div class="sidebar-divider"></div>
+        <div class="sidebar-heading">TRENDING TOPICS</div>
+        <a class="topic-link" href="#feed"><span class="topic-dot violet"></span># designinspo <small>2.4k</small></a>
+        <a class="topic-link" href="#feed"><span class="topic-dot blue"></span># travelstories <small>1.8k</small></a>
+        <a class="topic-link" href="#feed"><span class="topic-dot pink"></span># dailycreate <small>980</small></a>
+        <a class="topic-link" href="#feed"><span class="topic-dot green"></span># goodvibes <small>760</small></a>
+        <div class="guest-note"><span>✦</span><b>You're browsing as a guest</b><p>Explore public posts. Join NEXORA to make your own space.</p><button class="btn btn-primary btn-full" data-auth="signup">Join NEXORA</button></div>
+      </aside>
+
+      <section class="feed-column">
+        <div class="feed-heading" id="explore"><div><span class="eyebrow small-eyebrow">THE COMMUNITY</span><h2>Explore your feed</h2><p>Good things are happening out there.</p></div><button class="filter-button" id="sortButton">For you <span>⌄</span></button></div>
+        <div class="stories panel">
+          <div class="stories-head"><strong>Stories</strong><a href="#" id="viewStories">View all ↗</a></div>
+          <div class="story-list">
+            <button class="story-item add-story" data-auth="signup"><span class="story-ring add-ring">＋</span><span>Your story</span></button>
+            <button class="story-item" data-story="Emma"><span class="story-ring"><img src="https://i.pravatar.cc/90?img=44" alt=""></span><span>Emma</span></button>
+            <button class="story-item" data-story="Alex"><span class="story-ring"><img src="https://i.pravatar.cc/90?img=13" alt=""></span><span>Alex</span></button>
+            <button class="story-item" data-story="Sophia"><span class="story-ring"><img src="https://i.pravatar.cc/90?img=59" alt=""></span><span>Sophia</span></button>
+            <button class="story-item" data-story="Noah"><span class="story-ring"><img src="https://i.pravatar.cc/90?img=60" alt=""></span><span>Noah</span></button>
+            <button class="story-item" data-story="Mia"><span class="story-ring"><img src="https://i.pravatar.cc/90?img=49" alt=""></span><span>Mia</span></button>
+          </div>
+        </div>
+        <div class="composer panel">
+          <div class="composer-top"><img src="https://i.pravatar.cc/90?img=12" alt="Guest avatar"><button class="composer-input" data-auth="signup">What's on your mind? <span>✦</span></button></div>
+          <div class="composer-actions"><button data-auth="signup"><span class="green-text">▧</span> Photo</button><button data-auth="signup"><span class="orange-text">▷</span> Video</button><button data-auth="signup"><span class="pink-text">☺</span> Feeling</button><button class="post-cta" data-auth="signup">Create post <span>→</span></button></div>
+        </div>
+
+        <article class="post-card panel searchable-post" data-keywords="nature travel mountains lake photography outdoors">
+          <div class="post-header"><img src="https://i.pravatar.cc/90?img=68" alt="Jordan Lee"><div class="post-author"><b>Jordan Lee <span class="verified">✓</span></b><small>Travel & photography · 12 min ago <span>· 🌐 Public</span></small></div><button class="icon-button post-menu" aria-label="Post menu">···</button></div>
+          <p class="post-caption">A little reminder to slow down and take the scenic route. The world is full of quiet magic. 🌿 <a href="#feed">#travelstories</a> <a href="#feed">#nature</a></p>
+          <img class="post-image" src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=85" alt="Beautiful mountain lake surrounded by green hills">
+          <div class="reaction-summary"><span><i>♥</i><i>✦</i><i>☺</i></span><span><b class="like-count">248</b> reactions</span><span class="comment-count">32 comments</span></div>
+          <div class="post-actions"><button class="like-button"><span>♡</span> Like</button><button class="comment-button"><span>◯</span> Comment</button><button class="share-button"><span>↗</span> Share</button></div>
+          <div class="comment-preview"><img src="https://i.pravatar.cc/70?img=32" alt=""><div><b>Emma Wilson</b><span>This view is unreal! Adding it to my bucket list ✨</span></div></div>
+        </article>
+
+        <article class="post-card panel searchable-post" id="photos" data-keywords="design creativity workspace art illustration">
+          <div class="post-header"><img src="https://i.pravatar.cc/90?img=32" alt="Emma Wilson"><div class="post-author"><b>Emma Wilson <span class="verified">✓</span></b><small>Creative corner · 38 min ago <span>· 🌐 Public</span></small></div><button class="icon-button post-menu" aria-label="Post menu">···</button></div>
+          <p class="post-caption">Little by little, a little becomes a lot. Sharing a peek at my creative corner today 🎨 <a href="#feed">#dailycreate</a></p>
+          <img class="post-image" src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1200&q=85" alt="Notebook and creative workspace on a desk">
+          <div class="reaction-summary"><span><i>♥</i><i>✦</i></span><span><b class="like-count">126</b> reactions</span><span class="comment-count">18 comments</span></div>
+          <div class="post-actions"><button class="like-button"><span>♡</span> Like</button><button class="comment-button"><span>◯</span> Comment</button><button class="share-button"><span>↗</span> Share</button></div>
+        </article>
+        <div class="empty-state panel" id="emptyState" hidden><span>⌕</span><h3>No posts found</h3><p>Try another search term.</p></div>
+      </section>
+
+      <aside class="right-sidebar">
+        <div class="welcome-card panel">
+          <div class="welcome-glow"></div><div class="welcome-logo"><span class="brand-mark"><i></i><i></i><i></i></span></div>
+          <h3>Make this space yours.</h3><p>Join the conversation, follow creators, and share what matters to you.</p>
+          <button class="btn btn-primary btn-full" data-auth="signup">Create a free account <span>→</span></button>
+          <button class="btn btn-ghost btn-full" data-auth="login">I already have an account</button>
+          <div class="fine-print">Free to join · You’re in control</div>
+        </div>
+        <div class="trending-card panel" id="videos"><div class="panel-title"><h3>Trending now</h3><a href="#explore">See all</a></div>
+          <a class="trend-item" href="#feed"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=160&q=80" alt=""><span><b>#travelstories</b><small>1.8k posts this week</small></span><span class="trend-arrow">↗</span></a>
+          <a class="trend-item" href="#feed"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=160&q=80" alt=""><span><b>#designinspo</b><small>2.4k posts this week</small></span><span class="trend-arrow">↗</span></a>
+          <a class="trend-item" href="#feed"><img src="https://images.unsplash.com/photo-1498837323290-7d7d5e8c7b7a?auto=format&fit=crop&w=160&q=80" alt=""><span><b>#goodvibes</b><small>760 posts this week</small></span><span class="trend-arrow">↗</span></a>
+        </div>
+        <div class="community-card panel" id="communities"><div class="panel-title"><h3>Find your community</h3><span class="community-icon">♧</span></div><p>Shared interests make great connections.</p><div class="community-tags"><a href="#feed">Photography</a><a href="#feed">Tech & AI</a><a href="#feed">Travel</a><a href="#feed">Art & Design</a><a href="#feed">Music</a></div><button class="text-button" data-auth="signup">Explore communities →</button></div>
+      </aside>
+    </section>
+
+    <section class="join-banner section-wrap">
+      <div class="join-icon">✦</div><div><span class="eyebrow small-eyebrow">YOUR NEXT CHAPTER STARTS HERE</span><h2>Come as you are. <span class="gradient-text">Connect your way.</span></h2><p>Take a look around, find what inspires you, and join whenever you're ready.</p></div><button class="btn btn-primary btn-large" data-auth="signup">Join NEXORA — it's free <span>↗</span></button>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark"><i></i><i></i><i></i></span><span><strong>NEXORA</strong><small>Connect · Share · Explore</small></span></a>
+    <div class="footer-links"><a href="#home">About</a><a href="#communities">Communities</a><a href="#home">Privacy</a><a href="#home">Terms</a><a href="mailto:hello@nexora.example">Contact</a></div>
+    <div class="footer-social"><a href="#home" aria-label="Instagram">◎</a><a href="#home" aria-label="YouTube">▷</a><a href="#home" aria-label="X">𝕏</a></div>
+    <p class="copyright">© <span id="year"></span> NEXORA. Made for meaningful connections.</p>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog class="auth-dialog" id="authDialog">
+    <button class="dialog-close" id="closeDialog" aria-label="Close">×</button>
+    <div class="dialog-brand"><span class="brand-mark"><i></i><i></i><i></i></span><b>NEXORA</b></div>
+    <div class="dialog-tabs"><button class="dialog-tab active" data-tab="signup">Sign up</button><button class="dialog-tab" data-tab="login">Log in</button></div>
+    <h2 id="dialogTitle">Create your account</h2><p id="dialogDescription">Join the conversation — it's free.</p>
+    <form id="authForm">
+      <label id="nameField">Your name<input type="text" id="fullName" placeholder="e.g. Alex Morgan" autocomplete="name"></label>
+      <label>Email address<input type="email" id="email" placeholder="you@example.com" autocomplete="email" required></label>
+      <label>Password<input type="password" id="password" placeholder="At least 8 characters" minlength="8" autocomplete="new-password" required></label>
+      <button class="btn btn-primary btn-full btn-large" id="authSubmit" type="submit">Create account <span>→</span></button>
+    </form>
+    <p class="dialog-disclaimer">Demo interface only. Real account creation needs a secure backend and database.</p>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
